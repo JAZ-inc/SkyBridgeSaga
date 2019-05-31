@@ -1,0 +1,13 @@
+.titles {
+  position: relative;
+
+  &::before {
+    content: ">> ";
+    color: green;
+  }
+
+  &::after {
+    content: " <<";
+    color: green;
+  }
+}
